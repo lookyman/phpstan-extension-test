@@ -1,0 +1,19 @@
+{
+    "name": "lookyman/phpstan-extension-test",
+    "type": "phpstan-extension",
+    "authors": [
+        {
+            "name": "Lukáš Unger",
+            "email": "looky.msc@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "phpstan": {
+            "include": [
+                "foo.neon",
+                "bar.neon"
+            ]
+        }
+    }
+}
